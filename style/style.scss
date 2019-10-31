@@ -1,7 +1,7 @@
 @font-face {
-    font-family: "Aliens";
-    src: url('../media/fonts/aliens.ttf'); /* IE9 Compat Modes */
-    src: url('../media/fonts/aliens.ttf')  format('truetype'); /* Safari, Android, iOS */
+    font-family: "Bebas";
+    src: url('../media/fonts/bebas.ttf'); /* IE9 Compat Modes */
+    src: url('../media/fonts/bebas.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 
 @font-face {
@@ -32,7 +32,7 @@ section {
     }
 
     h2, h3 {
-        font-family: 'Aliens';
+        font-family: 'Bebas';
     }
 
     h2 {
