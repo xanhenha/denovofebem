@@ -45,6 +45,10 @@ section h2 {
   margin-bottom: 1em;
 }
 
+section h3 {
+  font-size: 30px;
+}
+
 section p {
   font-family: 'Flight';
   font-size: 24px;
