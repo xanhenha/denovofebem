@@ -1,0 +1,128 @@
+@font-face {
+    font-family: "Aliens";
+    src: url('../media/fonts/aliens.ttf'); /* IE9 Compat Modes */
+    src: url('../media/fonts/aliens.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'Flight';
+    src: url('../media/fonts/another-flight.otf');
+    src: url('../media/fonts/another-flight.otf') format('opentype');
+}
+
+@font-face {
+    font-family: "Higher";
+    src: url('../media/fonts/higher.ttf'); /* IE9 Compat Modes */
+    src: url('../media/fonts/higher.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+$mainColor: #fff;
+
+h1,h2,h3,h4,h5,h6,p {
+    color: $mainColor;
+}
+
+section {
+    display: block;
+    background: #000;
+    position: relative;
+
+    .container {
+        padding-bottom: 20px;
+    }
+
+    h2, h3 {
+        font-family: 'Aliens';
+    }
+
+    h2 {
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 1em;
+    }
+
+    p {
+        font-family: 'Flight';
+        font-size: 24px;
+        text-align: justify;
+        margin-bottom: 1.1em;
+    }
+
+    figure {
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.main-title {
+    font-family: "Higher";
+    font-size: 80px;
+    text-align: center;
+    color: $mainColor;
+    height: 80px;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    left: 0;
+    padding-bottom: 56.25%;
+
+    .video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.to-right {
+    float: right;
+}
+
+@media screen and (max-width: 767px) {}
+
+@media screen and (min-width: 768px) {
+
+    section {
+        .container {
+            width: 768px;
+        }
+
+        h2 {
+            font-size: 50px;
+        }
+
+        h3 {
+            font-size: 50px;
+        }
+
+        p {
+            font-size: 28px;
+        }
+    }
+
+    .main-title {
+        font-size: 100px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    section {
+        .container {
+            width: 970px;
+        }
+    }
+}
+
+@media screen and (min-width: 1270px) {
+    section {
+        .container {
+            width: 1200px;
+        }
+    }
+}
