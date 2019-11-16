@@ -88,6 +88,10 @@ section figure img {
   float: right;
 }
 
+.to-left {
+  float: left;
+}
+
 @media screen and (min-width: 768px) {
   section .container {
     width: 768px;
