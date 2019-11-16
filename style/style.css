@@ -56,6 +56,14 @@ section p {
   margin-bottom: 1.1em;
 }
 
+section p.center {
+  text-align: center;
+}
+
+section p.thin-line {
+  font-style: italic;
+}
+
 section figure img {
   width: 100%;
 }
@@ -90,6 +98,10 @@ section figure img {
 
 .to-left {
   float: left;
+}
+
+.nm {
+  margin: 0;
 }
 
 @media screen and (min-width: 768px) {
